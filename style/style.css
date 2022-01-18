@@ -1,0 +1,172 @@
+body {
+    background:#7cd1f9 !important;
+    font-family: '8-bit' !important;
+    overflow: hidden;
+    height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+h2 {
+    font-size: 16px !important;
+}
+
+.time{
+    height: 300px;
+}
+
+@font-face{
+    font-family: '8-bit';
+        src: url('../8-bit/8-bit-hud.eot');
+        src: url('../8-bit/8-bit-hud.eot') format('embedded-opentype'),
+             url('../8-bit/8-bit-hud.woff') format('woff'),
+             url('../8-bit/8-bit-hud.ttf') format('truetype'),
+             url('../8-bit/8-bit-hud.svg') format('svg');
+    font-weight: unset;
+    font-style: unset;
+}
+
+.div1{
+    height: 600px;
+}
+
+.div2{
+    height: 610px;
+    padding: 10px;
+}
+
+.div3{
+    height: 600px;
+}
+
+.board {
+    position: relative;
+    background-image: url('../images/backgroundFull4.png');
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    border: 4px solid black;
+    border-radius: 60px;
+}
+
+
+.character {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    left: 405px;
+    top: 300px;
+    background-image: url('../images/character1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div[class^="column"] {
+    position: absolute;
+    border: 4px solid black;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+  
+div[class^="column1"] {
+    margin-left: 20px;
+    visibility: hidden;
+}
+
+div[class^="column2"]{
+    margin-left: 125px;
+}
+
+div[class^="column3"] {
+    margin-left: 20px;
+}
+
+div[class^="column4"]{
+    margin-left: 125px;
+}
+
+.column4p1{
+    left: 0;
+    top: 50px;
+}
+
+.column4p2{
+    left: 230px;
+    top: 50px;
+}
+
+.column4p3{
+    left: 460px;
+    top: 50px;
+}
+
+.column3p1{
+    left: 0;
+    top: 220px;
+}
+
+.column3p2{
+    left: 228px;
+    top: 220px;
+}
+
+.column3p3{
+    left: 456px;
+    top: 220px;
+}
+
+.column3p4{
+    left: 684px;
+    top: 220px;
+}
+
+.column2p1{
+    left: 0;
+    top: 395px;
+}
+
+.column2p2{
+    left: 230px;
+    top: 395px;
+}
+
+.column2p3{
+    left: 460px;
+    top: 395px;
+}
+
+.column1p1{
+    left: 0px;
+    top: 570px;
+}
+
+.column1p2{
+    left: 228px;
+    top: 570px;
+}
+
+.column1p3{
+    left: 456px;
+    top: 570px;
+}
+
+.column1p4{
+    left: 684px;
+    top: 570px;
+}
+
+#virusImage{
+    background-image: url('../images/lava.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#keyboardImage{
+    background-image: url('../images/platform.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
